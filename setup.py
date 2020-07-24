@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="tempfileatexit",
-    version="0.0.1",
+    version="0.0.2",
     author="Jachym Cepicky",
     author_email="jachym@cepicky.ch",
     description="Remove tempory files at program exit, combination of tempfile and atexit should be as simple as possible.",
