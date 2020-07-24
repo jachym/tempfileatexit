@@ -10,6 +10,17 @@ pip install tempfileatexit
 ## Usage
 
 
+Automatic way
+
+```
+import tempfileatexit as tfae
+(fs, my_tempfile) = tfae.mkstemp()
+my_tempdir = tfae.mkdtemp()
+
+print(tempfileatexit.list(verbose=True))
+```
+
+Manual way
 ```
 import tempfileatexit
 import tempfile
